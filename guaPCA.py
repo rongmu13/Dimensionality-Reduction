@@ -15,8 +15,8 @@ from sklearn.linear_model import LinearRegression
 from umap import UMAP
 
 # ------------------ Page setup ------------------
-st.set_page_config(page_title="LET'S AI • Dimensionality Reduction Tool", layout="wide")
-st.title("😺 LET'S AI • Dimensionality Reduction Tool")
+st.set_page_config(page_title="Dimensionality Reduction Tools📈 Shinshu Univ. R.Y.", layout="wide")
+st.title("Dimensionality Reduction Tools📈 Shinshu Univ. R.Y.")
 st.caption("Upload Excel → Pick linear/nonlinear method → Visualize → Download results")
 
 # ------------------ Helpers ------------------
@@ -450,4 +450,5 @@ with right:
 
 # ------------------ Footer ------------------
 st.divider()
-st.caption("Made with ❤️ by Mumu • For research/teaching purposes only")
+st.caption("For research/teaching purposes only")
+
